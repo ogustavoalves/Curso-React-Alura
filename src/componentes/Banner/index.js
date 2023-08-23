@@ -1,11 +1,3 @@
-import './Banner.css'
+import {Banner} from "./Banner";
 
-function Banner () {
-    return (
-        <header className='banner'>
-            <img src="/imgs/banner.png" alt=""/>
-        </header>
-    )
-}
-
-export default Banner;
+export default Banner
