@@ -19,6 +19,10 @@ const Forumulario = (props) => {
       imagem,
       time
     })
+    setNome('')
+    setCargo('')
+    setImagem('')
+    setTime('default')
   }
 
   return (
