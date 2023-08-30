@@ -2,17 +2,32 @@ import './Rodape.css'
 
 const Rodape = () => {
     return (
-        <footer className='rodape'>
-            <div className='fundo'></div>
-            <div className='imgs'>
-                <div className='social'>
-                    <img src='/imgs/fb.png' alt='facebook logo'/>
-                    <img src='/imgs/tw.png' alt='twitter logo'/>
-                    <img src='/imgs/ig.png' alt='instagram logo'/>
-                </div>
-                <div className='logo'><img src='/imgs/logo.png' alt='facebook logo'/></div>
-            </div>
-            
+        <footer className='footer'>
+            <section>
+                <ul>
+                    <li>
+                        <a href="facebook.com" target="_blank">
+                        <img src='/imgs/fb.png' alt='facebook logo'/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="twitter.com" target="_blank">
+                            <img src='/imgs/tw.png' alt='twitter logo'/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="instagram.com" target="_blank">
+                            <img src='/imgs/ig.png' alt='facebook logo'/>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <img src='/imgs/logo.png' alt='logo da empresa'/>
+            </section>
+            <section>
+                <p>Desenvolvido por Alura</p>
+            </section>
         </footer>
     )
 }

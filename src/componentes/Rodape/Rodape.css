@@ -2,30 +2,20 @@ footer {
     background: url('/public/imgs/fundo.png') repeat-x;
 }
 
-.rodape {
-    display: inline-block;
+.footer {
     background-color: #6278F7;
-    width: 100%;
-    height: 440px;
-    
-}
-
-.logo {
+    color:#FFF;
+    padding: 80px;
     display: flex;
-    justify-content: center;
-    margin: -50px 637px;
-
-}
-.social {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 160px;
-    margin-left: 167px;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
-    box-sizing: border-box;
 }
 
-.social img {
-    padding: 17.5px;
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
 }
