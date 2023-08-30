@@ -1,34 +1,31 @@
+footer {
+    background: url('/public/imgs/fundo.png') repeat-x;
+}
+
 .rodape {
     display: inline-block;
     background-color: #6278F7;
     width: 100%;
-    height: 390px;
+    height: 440px;
+    
 }
-
-/* .rodape .imgs {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
 
 .logo {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    box-sizing: border-box;
-    margin-bottom: 500px;
-}
+    margin: -50px 637px;
 
+}
 .social {
     display: flex;
     justify-content: flex-start;
     margin-top: 160px;
+    margin-left: 167px;
     align-items: center;
     position: relative;
     box-sizing: border-box;
 }
 
 .social img {
-    padding: 30px;
+    padding: 17.5px;
 }
