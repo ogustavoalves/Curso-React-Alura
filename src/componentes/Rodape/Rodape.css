@@ -2,16 +2,33 @@
     display: inline-block;
     background-color: #6278F7;
     width: 100%;
-    height: 500px;
+    height: 390px;
 }
-.rodape .imgs {
-    display: flex;
-    align-items: center;
-}
-.logo {
+
+/* .rodape .imgs {
     display: flex;
     flex-direction: row;
+    align-items: center;
+} */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    padding: 75px 637px;
     box-sizing: border-box;
+    margin-bottom: 500px;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 160px;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.social img {
+    padding: 30px;
 }
