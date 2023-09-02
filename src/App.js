@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 import Banner from  './componentes/Banner';
 import Forumulario from './componentes/Formulario';
 import Time from './componentes/Time';
